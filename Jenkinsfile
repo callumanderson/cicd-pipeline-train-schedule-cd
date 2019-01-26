@@ -8,7 +8,7 @@ pipeline {
                 archiveArtifacts artifacts: 'dist/trainSchedule.zip'
             }
         }
-        stage('Deploy to staging server') {
+        stage('Deploy-Staging') {
             steps {
                 echo 'Deploying application to staging server'    
             }

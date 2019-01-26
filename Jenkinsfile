@@ -9,9 +9,9 @@ pipeline {
             }
         }
         stage('Deploy Staging) {
-              steps {
-                  echo 'Deploying application to staging server'    
-              }
+            steps {
+                echo 'Deploying application to staging server'    
+            }
         }
     }
 }
